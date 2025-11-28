@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: ghcr.io/Watt-is-Up/data-tracking-service
+  repository: ghcr.io/watt-is-up/data-tracking-service
   tag: "latest"
   pullPolicy: IfNotPresent
 

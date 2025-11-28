@@ -1,2 +1,16 @@
-# Ignore all bin directories in all microservices
-**/bin/
+# Build artifacts
+bin/
+obj/
+Debug/
+Release/
+
+# VS / Rider / OmniSharp
+*.user
+*.rsuser
+*.suo
+*.sln.docstates
+.idea/
+.vscode/
+
+# Auto-generated
+*.sourcelink.json

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: data-tracking-service
-          image: ghcr.io/Watt-is-Up/data-tracking-service:latest
+          image: ghcr.io/watt-is-up/data-tracking-service:latest
           ports:
             - containerPort: 8080
           env:

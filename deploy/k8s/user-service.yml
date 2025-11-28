@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: ghcr.io/Watt-is-Up/user-service:latest
+          image: ghcr.io/watt-is-up/user-service:latest
           ports:
             - containerPort: 8080
           env:

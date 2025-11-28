@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-service
-          image: ghcr.io/Watt-is-Up/billing-service:latest
+          image: ghcr.io/watt-is-up/billing-service:latest
           ports:
             - containerPort: 8080
           env:

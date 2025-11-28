@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reviews-service
-          image: ghcr.io/Watt-is-Up/reviews-service:latest
+          image: ghcr.io/watt-is-up/reviews-service:latest
           ports:
             - containerPort: 8080
           env:
