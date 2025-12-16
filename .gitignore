@@ -14,3 +14,6 @@ Release/
 
 # Auto-generated
 *.sourcelink.json
+
+# Mac
+.DS_Store
